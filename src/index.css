@@ -1,0 +1,30 @@
+.accordion-button::after{
+    filter: invert(1);
+}
+.nav-link{
+    color: grey;
+}
+.nav-link:hover{
+    /* color: grey; */
+    color: rgba(0, 0, 0, 0.719);
+}
+.navbar-brand{    
+    color: grey; 
+}
+.navbar-brand:hover{
+    color: rgba(0, 0, 0, 0.719);   
+}
+#icon{
+    background-color: hotpink;
+}
+.active{
+    color: none; 
+}
+/* .navbar-toggler-icon{
+    width: 30px; padding: 0;
+    height: 15px; margin: 0;
+} */
+textarea{
+    outline: 0;
+    border: 0;
+}
